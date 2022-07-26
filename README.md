@@ -1,2 +1,3 @@
 # am-yl.github.io
-Personnal website for projects!
+This is my repo to create my personnal website to display my projects!
+https://am-yl.github.io/
