@@ -1,2 +1,2 @@
-# amyl.github.io
+# am-yl.github.io
 Personnal website for projects!
