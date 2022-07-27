@@ -68,6 +68,11 @@ h1 {
 
 a {
     text-decoration: none;
+    color: lightslategray;
+}
+
+a:hover {
+    color:black;
 }
 
 ul {
@@ -75,7 +80,11 @@ ul {
 }
 
 /* footer */
+
+footer {
+    text-align: right;
+}
+
 #amyl {
-    font-family: 'MyFont';
-    font-size: 1.5rem;
+    color:lightslategray;
 }
