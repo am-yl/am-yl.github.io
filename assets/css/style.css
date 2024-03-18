@@ -1,81 +1,28 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@tailwinds base;
+
+@layer base {
+    @font-face {
+        font-family: MyFont;
+        src: url(/assets/fonts/Myfont-Regular.otf);
+    }
 }
+
+@font-face {
+  font-family: MyFont;
+  src: url(/assets/fonts/Myfont-Regular.otf);
+}
+
 
 body {
-    font-family: 'Roboto';
-}
-
-/* utils */
-
-.pad-x {
-    padding-left: var(--pad);
-    padding-right: var(--pad);
-}
-
-.flex {
-    display: flex;
-}
-
-.item-center {
-    align-items: center;
-}
-
-.item-end {
-    align-items:flex-end;
-}
-
-.between {
-    justify-content: space-between;
-}
-
-/* header */
-header {
-    width: 100%;
-    background-color: #eee;
-    padding: 5px 0;
-    position: fixed;
-}
-
-#logo {
-    padding-right: 10px;
-}
-
-#logo img {
-    height:60px;
+    font-family: Roboto;
 }
 
 h2 {
-    font-size: 3rem;
-}
-
-nav ul li {
-    padding: 0 10px;
-}
-
-/* main */
-
-main {
-
-    padding : 90px 0;
-}
-
-h1 {
-    font-size: 4rem;
-}
-
-a {
-    text-decoration: none;
-}
-
-ul {
-    list-style-type: none;
+    font-family: MyFont;
 }
 
 /* footer */
 #amyl {
-    font-family: 'MyFont';
+    font-family: MyFont;
     font-size: 1.5rem;
 }

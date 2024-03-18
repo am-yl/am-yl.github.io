@@ -1,56 +1,95 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="icon" href="assets/img/favicon.png" type="image/png" />
+		<link rel="icon" href="assets/img/favicon.png" type="image/png" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" type="text/css" href="assets/css/root.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <title>Amyl</title>
-</head>
-<body>
-    <header class="pad-x flex item-center between">
-        <div class="flex item-end between">
-            <a id="logo" href="https://am-yl.github.io/"><img src="assets/img/logo_amyl.svg" alt=""></a>
-            <h2>Amyl</h2>
-        </div>
-        <nav>
-            <ul class="flex item-center between">
-                <li>
-                    <a href="">Projets</a>
-                </li>
-                <li>
-                    <a href="">???</a>
-                </li>
-                <li>
-                    <a href="https://github.com/am-yl">Mon github</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main class="pad-x">
-        <h1>hello world</h1>
-        <ul>
-            <li>
-                Projet solo : <a href="https://am-yl.github.io/TIW_Architecture">Architecture</a>
-            </li>
-            <li>
-                Cours Javascript : <a href="https://am-yl.github.io/TIW_Javascript">Support javascript de Melvin (presque complet)</a> (<a href="https://javascript.melvin-lemoine.me/">dernière version</a>)
-            </li>
-            <li>
-                Eval Javascript : <a href="https://am-yl.github.io/TIW_DevineLeNombre">Jeu en Javascript : devine le nombre !</a>
-            </li>
-        </ul>
-    </main>
-    <footer class="pad-x">
-        <a href="https://github.com/am-yl" id="amyl">amyl</a>
-    </footer>
-</body>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+		<title>Amyl</title>
+	</head>
+	<body
+		class="h-screen bg-gradient-to-b from-indigo-900 to-violet-400 text-slate-200"
+	>
+		<header class="px-[15%] pt-4 flex items-center justify-between">
+			<div class="flex items-end justify-between">
+				<a class="pr-4" href="https://am-yl.github.io/">
+					<!-- <img class="h-16" src="assets/img/logo_amyl.svg" alt="" /> -->
+					<h2 class="text-5xl">Amyl</h2>
+				</a>
+			</div>
+			<nav>
+				<ul class="flex items-center justify-between">
+					<li class="px-4">
+						<a
+							href="/projects.html"
+							class="transition-all hover:underline hover:text-yellow-200"
+						>
+							Projets
+						</a>
+					</li>
+					<li class="px-4">
+						<a
+							href="https://github.com/am-yl"
+							class="transition-all hover:underline hover:text-yellow-200"
+						>
+							Github
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main class="px-[15%] py-12 text-center">
+			<h1 class="text-4xl">welcome</h1>
+			<ul>
+				<li>
+					Projet solo :
+					<a
+						class="transition-all underline hover:text-yellow-200 hover:decoration-inherit"
+						href="https://am-yl.github.io/TIW_Architecture"
+					>
+						Architecture
+					</a>
+				</li>
+				<li>
+					Cours Javascript :
+					<a
+						class="transition-all underline hover:text-yellow-200 hover:decoration-inherit"
+						href="https://am-yl.github.io/TIW_Javascript"
+					>
+						Support javascript de Melvin (presque complet)
+					</a>
+					(
+					<a
+						class="transition-all underline hover:text-yellow-200 hover:decoration-inherit"
+						href="https://javascript.melvin-lemoine.me/"
+					>
+						dernière version
+					</a>
+					)
+				</li>
+				<li>
+					Jeu en Javascript :
+					<a
+						class="transition-all underline hover:text-yellow-200 hover:decoration-inherit"
+						href="https://am-yl.github.io/TIW_DevineLeNombre"
+					>
+						Devine le nombre
+					</a>
+				</li>
+			</ul>
+		</main>
+		<footer class="px-[15%]">
+			<a href="https://github.com/am-yl" id="amyl">amyl</a>
+		</footer>
+	</body>
 </html>
