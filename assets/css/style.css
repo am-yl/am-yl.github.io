@@ -1,28 +1,23 @@
-@tailwinds base;
-
-@layer base {
-    @font-face {
-        font-family: MyFont;
-        src: url(/assets/fonts/Myfont-Regular.otf);
-    }
-}
-
 @font-face {
   font-family: MyFont;
   src: url(/assets/fonts/Myfont-Regular.otf);
 }
-
 
 body {
     font-family: Roboto;
 }
 
 h2 {
-    font-family: MyFont;
+    font-family: 'Montserrat Alternates';
+    text-transform: uppercase;
+}
+
+nav {
+    font-family: 'Montserrat Alternates';
 }
 
 /* footer */
 #amyl {
-    font-family: MyFont;
+    font-family: 'Montserrat Alternates';
     font-size: 1.5rem;
 }
