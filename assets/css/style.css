@@ -4,15 +4,6 @@
 }
 
 body {
-    font-family: Roboto;
-}
-
-h2 {
-    font-family: 'Montserrat Alternates';
-    text-transform: uppercase;
-}
-
-nav {
     font-family: 'Montserrat Alternates';
 }
 
@@ -23,6 +14,5 @@ footer {
 }
 
 #amyl {
-    font-family: 'Montserrat Alternates';
     font-size: 1.5rem;
 }
