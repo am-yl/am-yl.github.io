@@ -1,28 +1,16 @@
-@font-face {
-  font-family: MyFont;
-  src: url(/assets/fonts/Myfont-Regular.otf);
-}
-
 body {
     font-family: Roboto;
+    background-image: url(/assets/img/bg.gif);
+    background-size: repeat;
+    background-color: rgba(0, 0, 0, 0.1);
+    background-blend-mode: multiply;
 }
 
-h2 {
+h1 {
     font-family: 'Montserrat Alternates';
     text-transform: uppercase;
 }
 
-nav {
+h1, a {
     font-family: 'Montserrat Alternates';
-}
-
-/* footer */
-
-footer {
-    text-align: right;
-}
-
-#amyl {
-    font-family: 'Montserrat Alternates';
-    font-size: 1.5rem;
 }
