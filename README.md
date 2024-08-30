@@ -1,3 +1,6 @@
 # am-yl.github.io
-This is my repo to create my personnal website to display my projects!
 https://am-yl.github.io/
+
+🇫🇷 Cette page d'accueil présente ce que j'aime et où me trouver en ligne ! 💜
+
+🇬🇧 This landing page presents what I like and where to find me online! 💜
